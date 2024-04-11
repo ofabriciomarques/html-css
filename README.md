@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites, e agora vou gerenciar meus repositórios!
 
- [Executar exercício 001](https://ofabriciomarques.github.io/html-css/exercicios/ex001/index.html)
+ [Executar exercício 001](https://ofabriciomarques.github.io/html-css/exercícios/ex001/index.html)

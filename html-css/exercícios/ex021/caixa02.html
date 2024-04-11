@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de agrupamento</title>
+    <style>
+        main {
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px;
+            box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, 0.336);
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 0px;
+        }
+
+        header {
+            padding: 10px;
+            margin: 10px;
+            background-color: gray;
+        }
+
+        nav {
+            background-color: hsl(0, 0%, 60%);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.349);
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+
+        article {
+            background-color: hsl(5, 11%, 80%);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: slategray;
+            font-style: italic;
+        }
+
+        footer{
+            text-align: center;
+            color: white;
+            background-color: black;
+            padding: 4px;
+            margin: 10px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Notícias Contato Sobre</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre design eu acho...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, laudantium vitae, molestiae recusandae in pariatur, quam numquam porro unde neque aliquid consectetur tenetur. Aperiam autem esse dicta quis cumque illum?</p>
+                <aside>
+                    <p>Artigo escrito por Caio Bruno</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Phraqzy</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

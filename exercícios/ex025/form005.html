@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quinto exemplo de formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo?</legend>
+            <input type="radio" name="sexo" id="isexs" value="sim"> <label for="isexs">Já fiz</label>
+            <input type="radio" name="sexo" id="isexn" value="nao"> <label for="isexn">Não fiz</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label><br>
+            <input type="checkbox" name="esbasq" id="iesbasq"> <label for="iesbasq">Basquete</label><br>
+            <input type="checkbox" name="esvolei" id="iesvolei"> <label for="iesvolei">Vôlei</label><br>
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Fulano ou Fulana?</legend>
+            <input type="radio" name="fu" id="lano" value="lano"><label for="lano">Fulano</label>
+            <input type="radio" name="fu" id="lana" value="lana"><label for="lana">Fulana</label>
+        </fieldset>        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>

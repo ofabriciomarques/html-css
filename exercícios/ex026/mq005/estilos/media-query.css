@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*
+/* demais mídias */
+/* especificar em min-width
+/* https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp
+/* telas extra pequenas: até 600px
+/* telas pequenas (tablet em modo retrato e telefones médio): 600px até 600px
+/* telas média (tablet em paisagem): 768px e supperior
+/* telas grandes (notebook/desktop): 992px e superior
+/* telas enormes: 1200x e superior
+*/
+
+@media screen and (min-width: 600px) {
+    span.material-symbols-outlined {
+        display: none;
+    }
+
+    menu {
+        display: block !important;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 600px;
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Flexível - Propriedade flex</title>
+    <style>
+        div.conteiner {
+            background-color: lightsalmon;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        div.item {
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        div#cxA {
+            /*
+            flex-shrink: 1;
+            flex-grow: 0;
+            flex-basis: 200px;
+            */
+
+            flex: 4 1 200px;
+        }
+
+        div#cxB {
+            flex: 1 4 250px;
+        }
+
+        div#cxC {
+            flex: 8 1 200px
+        }
+    </style>
+</head>
+<body>
+    <h1>Olha a flexbox</h1>
+    <div class="conteiner">
+        <div class="item" id="cxA">A</div>
+        <div class="item" id="cxB">B</div>
+        <div class="item" id="cxC">C</div>
+    </div>
+</body>
+</html>

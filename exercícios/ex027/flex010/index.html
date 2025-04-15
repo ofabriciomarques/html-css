@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caixa Flexível - Flex-basis</title>
+    <title>Caixa Flexível - Tamanho de itens</title>
     <style>
         div.conteiner {
             background-color: lightsalmon;
             display: flex;
-            flex-flow: row wrap;
+            flex-flow: row nowrap;
         }
         div.item {
             background-color: aqua;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 160px;
+            flex-basis: 300px;
+            flex-shrink: 1;
+            flex-grow: 0;
         }
     </style>
 </head>
@@ -22,12 +24,8 @@
     <h1>Olha a flexbox</h1>
     <div class="conteiner">
         <div class="item">A</div>
-        <div class="item">Conteúdo grande</div>
+        <div class="item">B</div>
         <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">Este conteúdo ainda maior</div>
-        <div class="item">F</div>
-
     </div>
 </body>
 </html>
